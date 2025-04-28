@@ -18,6 +18,8 @@
   - git add <file_name/folder_name> :It stages the specified file or folder.
   - git rm --cached <file_name/folder_name>: It unstage the specified file or folder.
   - git log : Shows all the commit in past of the directory
+  
 - Staging Area :  If you want Git to track changes to a specific file, you need to add that file to the Staging Area.
 - Commit History :It is a record of everything you have staged and committed so far.
 - working directory:This is where you add files, create directories, and implement changes. To let Git track these changes, you need to stage the files first.
+- when you update something in the file,it  gets updated in working directory not Staging Area. 
