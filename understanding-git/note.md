@@ -15,6 +15,9 @@
   - git config --global --list : Shows your details
   - git init :  It creates a hidden .git folder where Git stores all the tracking information and changes for the project.
   - git status : To check the current branch
+  - git add <file_name/folder_name> :It stages the specified file or folder.
+  - git rm --cached <file_name/folder_name>: It unstage the specified file or folder.
+  - git log : Shows all the commit in past of the directory
 - Staging Area :  If you want Git to track changes to a specific file, you need to add that file to the Staging Area.
 - Commit History :It is a record of everything you have staged and committed so far.
 - working directory:This is where you add files, create directories, and implement changes. To let Git track these changes, you need to stage the files first.
