@@ -27,3 +27,4 @@
 - Commit History :It is a record of everything you have staged and committed so far.
 - working directory:This is where you add files, create directories, and implement changes. To let Git track these changes, you need to stage the files first.
 - when you update something in the file,it  gets updated in working directory not Staging Area. 
+- When you delete something from your working directory,you must check if it's already push to git .If it is then remove it from git first.(e.g  : git rm --cached understanding-git/cred.txt)
