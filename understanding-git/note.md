@@ -64,6 +64,3 @@
   - git push origin v1.1 : pushing the tag or release point to the remote repo.
   - git log --pretty=oneline : It shows the summary of commits
 
-
-///feature1
-********************************************
