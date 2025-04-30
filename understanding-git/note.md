@@ -56,6 +56,7 @@
 ##### GIT TAG : It refers to a specific version or snapshot of the complete project, often used to mark release points (e.g., v1.0, v2.0).
 
 ##### Annotated tag: A tag that stores additional information such as the tagger’s name, date, message, and is saved as a full Git object.
+
 ##### Lightweight tag: A simpler tag that only points to a commit without any extra metadata or message.
 
 - Command Line prompt for tag:
@@ -63,4 +64,13 @@
   - git tag -a v1.0 -m "1st release" :It adds tag or specify the release point of the product
   - git push origin v1.1 : pushing the tag or release point to the remote repo.
   - git log --pretty=oneline : It shows the summary of commits
+  #### Before merging make sure to pull origin main
 
+##### BRANCHING COMMAND LINES and steps to add branch and committing it and pushing it to the remote repo
+
+- git checkout -b <branch-name> - create a new branch
+- git switch -c <branch-name> - create a new branch
+- git checkout <branch-name> - switch branches
+- git switch <branch-name> - switch branches
+- git commit -m "<message>"
+- git push origin <branch-name>- e.g, features1,features2 or main
