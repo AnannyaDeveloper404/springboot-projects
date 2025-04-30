@@ -1,4 +1,4 @@
-###### Git is distributed Version control system
+#### Git is distributed Version control system
 
 - ###### Version control mean the power to go back to your previously written code ,previous version of the current code allowing you to manage and restore earlier states of your project.
 
@@ -53,5 +53,14 @@
 
 ##### Why SSH : Using SSH allows you to securely connect to GitHub without needing to enter your username and password every time you push or pull. It works by verifying that the SSH key on your local machine matches the public key stored in your GitHub account.
 
-##### GIT TAG :  It refers to a specific version or snapshot of the complete project, often used to mark release points (e.g., v1.0, v2.0).
-##### Annotated tag: Which provide specific info for each version
+##### GIT TAG : It refers to a specific version or snapshot of the complete project, often used to mark release points (e.g., v1.0, v2.0).
+
+##### Annotated tag: A tag that stores additional information such as the tagger’s name, date, message, and is saved as a full Git object.
+##### Lightweight tag: A simpler tag that only points to a commit without any extra metadata or message.
+
+- Command Line prompt for tag:
+  - git tag : shows all the tags for a specific repo
+  - git tag -a v1.0 -m "1st release" :It adds tag or specify the release point of the product
+  - git push origin v1.1 : pushing the tag or release point to the remote repo.
+  - git log --pretty=oneline : It shows the summary of commits
+  - 
